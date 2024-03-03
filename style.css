@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #36393f;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  color: #7289da;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #7289da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5469d4;
+}
+
+#nitroCodeContainer {
+  display: none;
+}
+
+#message {
+  color: black;
+}
